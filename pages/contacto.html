@@ -20,19 +20,26 @@
         <form>
             <fieldset>
                 <legend>Sus datos</legend>
-                <label for="qname">Nombre: </label>
-                <input type="text" name="qname" id="qname" placeholder="Su nombre aquí" autofocus tabindex="1"><br>
-                <label for="qsurname">Apellido: </label>
-                <input type="text" name="qsurname" id="qsurname" placeholder="Su apellido aquí"><br>
-                <label for="qinteres">Interes: </label>
+                <label for="name">Nombre: </label>
+                <input type="text" name="name" id="name" placeholder="Su nombre aquí" autofocus tabindex="1"><br>
+                <label for="surname">Apellido: </label>
+                <input type="text" name="surname" id="surname" placeholder="Su apellido aquí"><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Sus motivos:</legend>
+                <label for="interes">Interes: </label>
                 <input list="intereses" name="interes" id="interes">
                 <datalist id="intereses">
                     <option value="aprender js"></option>
                     <option value="aprender html"></option>
                     <option value="aprender css"></option>
-                </datalist>
-                
+                </datalist><br>
+                <label for="masinfromacion">Más información: </label>
+                <textarea name="masinfromacion" id="masinfromacion" cols="40" rows="10"></textarea>
             </fieldset>
+            <input type="submit" name="Enviar" id="enviar">
         </form>
     </main>
 </body>
