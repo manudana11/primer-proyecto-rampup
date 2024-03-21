@@ -15,5 +15,25 @@
             <a href="../pages/contacto.html" class="barra-navegacion">Contacto</a>
         </nav>
     </header>
+    <main>
+        <h1 class="contacto-1">Contacto</h1>
+        <form>
+            <fieldset>
+                <legend>Sus datos</legend>
+                <label for="qname">Nombre: </label>
+                <input type="text" name="qname" id="qname" placeholder="Su nombre aquí" autofocus tabindex="1"><br>
+                <label for="qsurname">Apellido: </label>
+                <input type="text" name="qsurname" id="qsurname" placeholder="Su apellido aquí"><br>
+                <label for="qinteres">Interes: </label>
+                <input list="intereses" name="interes" id="interes">
+                <datalist id="intereses">
+                    <option value="aprender js"></option>
+                    <option value="aprender html"></option>
+                    <option value="aprender css"></option>
+                </datalist>
+                
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>

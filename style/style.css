@@ -8,7 +8,7 @@
 html {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 5px 10px;
     background-color: seagreen;
     color: white;
 }
@@ -25,5 +25,32 @@ nav {
 }
 
 .imagen-portada {
-    width: auto;
+    width: 310px;
+    margin: 0 6%;
+}
+
+.imagen-section {
+    width: 310px;
+    margin: 10px 6%;    
+}
+
+p {
+    margin: 10px 6%;
+}
+
+h1 {
+    margin: 5px 5%;
+}
+
+h2 {
+    margin: 5px 5%;;
+}
+
+.imagenes-port {
+    width: 310px;
+    margin: 3% 6%;
+}
+
+.contacto-1 {
+    text-align: center;
 }
