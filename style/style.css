@@ -110,6 +110,17 @@ fieldset {
     align-items: center;
 }
 
+#enviar {
+    padding: 5px 10px;
+    background-color: azure;
+    border-color: white;
+    color: green;
+}
+
+footer section {
+    margin-bottom: 35px;
+}
+
 @media screen and (min-width: 600px) {
     .imagen-section {
         width: 650px;
@@ -125,5 +136,27 @@ fieldset {
 
     fieldset {
         width: 650px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    footer section {
+        margin-bottom: 0;
+    }
+
+    .foter-centrado-1 {
+        width: 50%;
+    }
+
+    .foter-centrado-2 {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 }
